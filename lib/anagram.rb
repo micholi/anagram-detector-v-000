@@ -13,9 +13,9 @@ attr_accessor :word
       if w.split("").sort == word.split("").sort
       result << w
 end
-result
-end
 
+end
+result
 end
 
 
