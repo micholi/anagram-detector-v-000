@@ -14,6 +14,7 @@ attr_accessor :word
 end
 result
 end
+end
 
 
 end
