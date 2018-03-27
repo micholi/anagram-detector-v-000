@@ -10,5 +10,6 @@ attr_accessor :word
     words.each do |w|
       word.split(" ").sort == w.split(" ").sort
   end
+end
 
 end
