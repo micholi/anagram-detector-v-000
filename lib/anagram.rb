@@ -13,7 +13,7 @@ attr_accessor :word
           result << word
         
 end
-result
+
 end
 
 end
