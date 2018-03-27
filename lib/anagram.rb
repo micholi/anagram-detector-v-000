@@ -8,12 +8,11 @@ attr_accessor :word
 
   def match(words)
     result = []
+
     words.each do |w|
-
       result << w if w.split("").sort == word.split("").sort
-
-end
-result
+    end
+      result
 end
 
 
