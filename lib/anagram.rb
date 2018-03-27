@@ -11,13 +11,11 @@ attr_accessor :word
     words.each do |w|
 
       if w.split("").sort != word.split("").sort
-      result 
+      result
     else
       result << w
 end
 end
-end
-
 end
 
 
