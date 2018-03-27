@@ -10,9 +10,9 @@ attr_accessor :word
 
     words.each do |w|
       result = []
-      result << w if w.split(" ").sort == word.split(" ").sort
-        
-result
+      if w.split(" ").sort == word.split(" ").sort
+      w  
+end
 end
 
 end
