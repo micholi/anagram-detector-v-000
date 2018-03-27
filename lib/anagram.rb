@@ -15,6 +15,7 @@ attr_accessor :word
     else
       result << w
 end
+result
 end
 end
 
