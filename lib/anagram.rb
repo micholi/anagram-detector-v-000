@@ -7,10 +7,12 @@ attr_accessor :word
   end
 
   def match(words)
-    result = []
+    #result = []
     words.each do |w|
         if w.split(" ").sort == word.split(" ").sort
           result = word
+        else
+          result = []
 end
 
 end
