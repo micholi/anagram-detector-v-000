@@ -14,8 +14,9 @@ attr_accessor :word
         result << w
 
 end
-end
 result
+end
+
 end
 
 
