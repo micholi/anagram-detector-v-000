@@ -9,9 +9,9 @@ attr_accessor :word
   def match(words)
     result = []
     words.each do |w|
-      
+
       if w.split("").sort == word.split("").sort
-      result << w
+      result << word
 end
 result
 end
