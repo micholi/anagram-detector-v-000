@@ -12,7 +12,8 @@ attr_accessor :word
       result = []
       if w.split(" ").sort == word.split(" ").sort
         result << w
-
+else
+  result
 end
 result
 end
