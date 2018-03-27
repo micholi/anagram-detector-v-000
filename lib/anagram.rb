@@ -15,7 +15,7 @@ attr_accessor :word
 else
   result
 end
-result
+
 end
 
 end
